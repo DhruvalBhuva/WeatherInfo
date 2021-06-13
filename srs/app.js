@@ -6,7 +6,7 @@ const express = require("express");
 const path = require("path");
 const app = express();
 const hbs = require("hbs");
-const port = process.env.PORT || 7000; // if hosted then user port num otherwise for local host 3000
+const port = process.env.PORT || 8000; // if hosted then user port num otherwise for local host 3000
 
 // paths
 const staticPath = path.join(__dirname, "../public");
